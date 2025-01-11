@@ -120,6 +120,43 @@ This process has been documented separately in [AGILE.md](AGILE.md)
 | Button Hover                      | Slightly Darker Blue (#2563EB) | Adds a subtle feedback effect for interaction.                                  |
 | Input Focus                       | Light Blue Border (#93C5FD)    | Ensures users easily recognize active input fields.                             |
 
+### Database Design
+
+    Entity Relationship Diagrams help to visualise database architecture before creating models in Django. Understanding the relationships between different tables can save time recoding later in the project.
+
+| **Model**   | **Usage**                                                                                                      |
+|-------------|----------------------------------------------------------------------------------------------------------------|
+| **User**    | Django’s built-in authentication system, managing users and their permissions.                                 |
+| **Profile** | Extends the User model to store additional user information like bio and location.                             |
+| **Category**| Groups tasks for better organization, allowing users to categorize their tasks (e.g., Work, Personal).         |
+| **Task**    | The central model of the app, representing individual tasks with details like status, priority, and deadlines. |
+
+
+| **Model**   | **Field**             | **Type**                  | **Key**       | **Description**                                                                 |
+|-------------|-----------------------|---------------------------|---------------|---------------------------------------------------------------------------------|
+| **User**    | id                    | AutoField                 | PK            | Auto-incrementing primary key.                                                  |
+|             | (default fields)      |                           |               | Default fields like username, email, and password provided by Django.           |
+| **Profile** | id                    | AutoField                 | PK            | Auto-incrementing primary key.                                                  |
+|             | user                  | OneToOneField(User)       | FK            | Links the profile to a single user.                                             |
+|             | profile_picture       | ImageField                |               | Optional field to upload and store profile pictures.                            |
+|             | bio                   | TextField                 |               | Optional short biography or user description.                                   |
+|             | location              | CharField(max_length=255) |               | Optional field for storing the user’s location.                                 |
+| **Category**| id                    | AutoField                 | PK            | Auto-incrementing primary key.                                                  |
+|             | name                  | CharField(max_length=255) |               | Name of the category (e.g., Work, Personal).                                    |
+|             | user                  | ForeignKey(User)          | FK            | Links category to the user who created it.                                      |
+| **Task**    | id                    | AutoField                 | PK            | Auto-incrementing primary key.                                                  |
+|             | title                 | CharField(max_length=255) |               | Short title of the task.                                                        |
+|             | description           | TextField                 |               | Optional detailed description of the task.                                      |
+|             | status                | CharField(choices)        |               | Tracks the current state (Pending, In Progress, Completed, Overdue).            |
+|             | priority              | CharField(choices)        |               | Priority level of the task (Low, Medium, High).                                 |
+|             | due_date              | DateTimeField             |               | Deadline for the task (optional).                                               |
+|             | created_at            | DateTimeField             |               | Auto-generated timestamp when the task is created.                              |
+|             | updated_at            | DateTimeField             |               | Auto-generated timestamp for the last update.                                   |
+|             | user                  | ForeignKey(User)          | FK            | Links task to the user who created it.                                          |
+|             | category              | ForeignKey(Category)      | FK            | Links task to a specific category. Can be null.                                 |
+
+
+
 
 
 

@@ -9,6 +9,6 @@
     [X] Add user stories to readme.
     [x] Add colour schema
     [ ] Add wireframes to readme.
-    [ ] Mock up initial database design and document in readme.
+    [x] Mock up initial database design and document in readme.
     [ ] List and link technologies used in readme.
     [ ] Use GitHub projects. Create user stories.
