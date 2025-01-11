@@ -174,8 +174,30 @@ This process has been documented separately in [AGILE.md](AGILE.md)
 ## Issues and Bugs
 
 ## Technologies Used
-     Main Languages Used
-     Frameworks, Libraries & Programs Used
+
+### Main Languages Used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Link to CSS Wiki")
+- [Python](https://en.wikipedia.org/wiki/Python_(programming_language) "Link to Python Wiki")
+
+### Frameworks, Libraries & Programs Used
+
+- [Figma](https://figma.com/) - For wireframes.
+- [GitHub](https://github.com/) for repo storage and Agile project management using Kanban boards/issue tracking.
+- [Heroku](https://id.heroku.com/) for project deployment to the world wide web.
+- [Python3 ](https://docs.python.org/3/) with the following modules
+- [Bootstrap](https://getbootstrap.com/)
+- [JQuery](https://jquery.com/) 
+- [Django](https://www.djangoproject.com/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Favicon-Icons](https://favicon.io/favicon-generator/)
+- [Allauth](https://django-allauth.readthedocs.io/en/latest/)
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+- [W3C Markup Validator](https://validator.w3.org/) HTML linter
+- [Jigsaw](https://jigsaw.w3.org/css-validator/) CSS linter
+- [JSHint](https://jshint.com/) JS linter
+- [PEP8](https://www.pythonchecker.com/) Python linter
 
 ## Testing
 This process has been documented separately in [TESTING.md](TESTING.md)
