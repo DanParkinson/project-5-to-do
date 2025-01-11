@@ -7,6 +7,7 @@
     [X] Setup repo.
     [x] Perform design thinking exercise for features to include in project.
     [X] Add user stories to readme.
+    [x] Add colour schema
     [ ] Add wireframes to readme.
     [ ] Mock up initial database design and document in readme.
     [ ] List and link technologies used in readme.

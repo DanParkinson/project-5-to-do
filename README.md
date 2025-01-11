@@ -99,10 +99,35 @@ This process has been documented separately in [AGILE.md](AGILE.md)
 
     The above exercise indicates that overall importance/feasibility scores were similar.  Therefore the project should be deliverable.
 
+### Colour Schema
+
+    The color scheme for this task management app has been carefully selected to create a modern, intuitive, and calming user experience. The primary color, a soft blue, fosters focus and trust, making it ideal for headers and primary actions. Vibrant teal is used as an accent to draw attention to key elements without overwhelming the interface. Neutral tones like light grey and white maintain a clean and professional aesthetic, while dark grey text ensures excellent readability. Status colors such as green, amber, and red provide clear visual cues for task statuses, ensuring users can quickly identify completed, pending, and overdue tasks. This thoughtful palette not only enhances usability but also promotes an environment that encourages productivity and reduces cognitive load. Interactive elements feature subtle hover effects and focused states to improve user engagement and provide seamless feedback during interactions.
+
+| **Category**                      | **Color**                      | **Reasoning**                                                                   |
+|-----------------------------------|--------------------------------|---------------------------------------------------------------------------------|
+| **Primary Colors**                |                                |                                                                                 |
+| Base Color                        | Soft Blue (#3B82F6)            | Use for headers, buttons, and primary actions to mimic a focus-friendly design. |
+| Accent Color                      | Vibrant Teal (#14B8A6)         | Ideal for highlighting important notifications, labels, or secondary actions.   |
+| **Secondary Colors**              |                                |                                                                                 |
+| Background                        | Light Grey (#F3F4F6)           | Clean and neutral, for the main app background.                                 |
+| Panel/Section Background          | White (#FFFFFF)                | Keeps the interface uncluttered and professional.                               |
+| Text Color                        | Dark Grey (#1F2937)            | For titles, subtitles, and general readability.                                 |
+| **Status Colors**                 |                                |                                                                                 |
+| Completed Tasks                   | Green (#10B981)                | Represents success and completion.                                              |
+| Pending Tasks                     | Amber (#F59E0B)                | Adds a sense of urgency without being aggressive.                               |
+| Overdue Tasks                     | Red (#EF4444)                  | Eye-catching but not overly harsh.                                              |
+| **Hover & Interaction Effects**   |                                |                                                                                 |
+| Button Hover                      | Slightly Darker Blue (#2563EB) | Adds a subtle feedback effect for interaction.                                  |
+| Input Focus                       | Light Blue Border (#93C5FD)    | Ensures users easily recognize active input fields.                             |
+
+
+
+
+
 
 ## Features
      Design Features
-     Existing Features
+     Existing Featues
      Future Adaptations
 
 ## Issues and Bugs
