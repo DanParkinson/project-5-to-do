@@ -8,7 +8,7 @@
     [x] Perform design thinking exercise for features to include in project.
     [X] Add user stories to readme.
     [x] Add colour schema
-    [ ] Add wireframes to readme.
+    [x] Add wireframes to readme.
     [x] Mock up initial database design and document in readme.
     [ ] List and link technologies used in readme.
     [ ] Use GitHub projects. Create user stories.

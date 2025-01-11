@@ -155,6 +155,10 @@ This process has been documented separately in [AGILE.md](AGILE.md)
 |             | user                  | ForeignKey(User)          | FK            | Links task to the user who created it.                                          |
 |             | category              | ForeignKey(Category)      | FK            | Links task to a specific category. Can be null.                                 |
 
+#### Skeleton
+    Wireframes were made to showcase the appearance of the site pages while keeping a positive user experience in mind.
+
+![Site Wireframes](images/wireframe/Dashboard.png)
 
 
 
@@ -180,7 +184,10 @@ This process has been documented separately in [TESTING.md](TESTING.md)
 This process has been documented separately in [DEPLOYMENT.md](DEPLOYMENT.md)
 
 ## Credits
-     Content
-     People
+Content
+
+[Figma](https://figma.com/) - For wireframes.
+
+People
 
 ## Acknowledgements
