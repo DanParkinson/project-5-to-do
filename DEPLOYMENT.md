@@ -2,7 +2,7 @@
 
 This is where my deployment process will be documented.
 
-## Install Django and packages, Create Django Project, Run Server and allow hosts
+## Install Django and packages, Create Django Project.
 
     Install django
     - *pip3 install 'django<4'*
@@ -36,6 +36,7 @@ This is where my deployment process will be documented.
     Next, we need to set up the Cloudinary environment variable.
     - Create an env.py file at the top directory
     - inside env.py add:
+
     import os
     os.environ['CLOUDINARY_URL'] = '<Your cloudinary api key>'
 
@@ -52,4 +53,20 @@ This is where my deployment process will be documented.
     }                                <-----
     MEDIA_URL = '/media/'            <-----
     DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'   <-----
+
+## Running server and allowing hosts
+
+    To run the server use
+    - *python3 manage.py runserver*
+
+    A disallowed host message will come up. Copy the HTTP_host header into allowed hosts in settings.py.
+    Reopen the server and you will see:
+
+    
+![Live Django Project](images/deployment/deployment_1.png)
+
+
+
+
+
  

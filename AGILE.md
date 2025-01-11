@@ -15,12 +15,14 @@
 
 ## Sprint 2 
 
-    Next we need to create the database models for the site to use. 
+    Next we need to create the django project, install cloudinary and pillow, the append the allowed hosts so the server runs. Once this is complete the profiles model can be built. 
 
     [x] Install Django.
     [x] Create Django project.
-    [x] Install Cloudinary 
-    [x] Install Pillow
+    [x] Install Cloudinary.
+    [x] Install Pillow.
+    [x] Runserver and append allowed hosts.
+    [ ] Create Profiles app.
     [ ] Create Profiles model. 
     [ ] Create Task Resource. 
     [ ] Create Catergories Resource. 
