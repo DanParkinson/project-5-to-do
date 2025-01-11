@@ -71,10 +71,9 @@
 #### Advanced Features (Optional)
     As a user, I want to search for a specific task, so that I can quickly find what I’m looking for.
     As a user, I want to receive reminders for tasks with deadlines, so that I don’t miss anything important.
-    As a user, I want to sync my tasks across devices, so that I can access them from anywhere.
 #### Accessibility and Support
-     As a user, I want the app to work on both desktop and mobile devices, so that I can use it in different scenarios.
-     As a user, I want to have tooltips or a tutorial, so that I can understand how to use the app efficiently.
+    As a user, I want the app to work on both desktop and mobile devices, so that I can use it in different scenarios.
+    As a user, I want to have tooltips or a tutorial, so that I can understand how to use the app efficiently.
 
 ### Design Thinking 
 This process has been documented separately in [AGILE.md](AGILE.md)
