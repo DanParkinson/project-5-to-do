@@ -79,6 +79,27 @@
 ### Design Thinking 
 This process has been documented separately in [AGILE.md](AGILE.md)
 
+    Applying a Design Thinking approach, what features would users find most useful on the developed site? How feasible is it for an inexperienced student developer to deliver prioritised features given the time constraints of a hard deadline? As per assessment criteria, this project must utilise CRUD functionality. This provides a broad outline of what is needed. A brief though shower offered the following:
+
+| **Feature**                       |**Importance**|**Feasability**|
+|:----------------------------------|:------------:|:-------------:|
+| Create personal account           | 5            | 5             |
+| Update personal information       | 5            | 5             |
+| Delete personal account           | 5            | 5             |
+| Create a new task                 | 5            | 5             |
+| Edit an existing task             | 5            | 5             |
+| Delete an existing task           | 5            | 5             |
+| Set deadline for task             | 4            | 5             |
+| Set exisiting task as complete    | 4            | 5             |
+| Cateragorize tasks                | 4            | 5             |
+| Recieve reminders for tasks       | 3            | 4             |
+| Task searchbar                    | 3            | 4             |
+| Invite others to tasks            | 2            | 4             |
+| **Overall score**                 | **50**       | **57**        |
+
+    The above exercise indicates that overall importance/feasibility scores were similar.  Therefore the project should be deliverable.
+
+
 ## Features
      Design Features
      Existing Features
