@@ -11,4 +11,14 @@
     [x] Add wireframes to readme.
     [x] Mock up initial database design and document in readme.
     [x] List and link technologies used in readme.
-    [ ] Use GitHub projects. Create user stories.
+    [x] Use GitHub projects. Create user stories.
+
+## Sprint 2 
+
+    Next we need to create the database models for the site to use. 
+
+    [ ] Create Django Project.
+    [ ] Create Profiles model. 
+    [ ] Create Task Resource. 
+    [ ] Create Catergories Resource. 
+    [ ] Prepare to Deploy in Sprint 3.
