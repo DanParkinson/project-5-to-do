@@ -17,7 +17,10 @@
 
     Next we need to create the database models for the site to use. 
 
-    [ ] Create Django Project.
+    [x] Install Django.
+    [x] Create Django project.
+    [x] Install Cloudinary 
+    [x] Install Pillow
     [ ] Create Profiles model. 
     [ ] Create Task Resource. 
     [ ] Create Catergories Resource. 
