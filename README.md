@@ -78,7 +78,7 @@
 ### Design Thinking 
 This process has been documented separately in [AGILE.md](AGILE.md)
 
-    Applying a Design Thinking approach, what features would users find most useful on the developed site? How feasible is it for an inexperienced student developer to deliver prioritised features given the time constraints of a hard deadline? As per assessment criteria, this project must utilise CRUD functionality. This provides a broad outline of what is needed. A brief though shower offered the following:
+Applying a Design Thinking approach, what features would users find most useful on the developed site? How feasible is it for an inexperienced student developer to deliver prioritised features given the time constraints of a hard deadline? As per assessment criteria, this project must utilise CRUD functionality. This provides a broad outline of what is needed. A brief though shower offered the following:
 
 | **Feature**                       |**Importance**|**Feasability**|
 |:----------------------------------|:------------:|:-------------:|
@@ -96,11 +96,11 @@ This process has been documented separately in [AGILE.md](AGILE.md)
 | Invite others to tasks            | 2            | 4             |
 | **Overall score**                 | **50**       | **57**        |
 
-    The above exercise indicates that overall importance/feasibility scores were similar.  Therefore the project should be deliverable.
+The above exercise indicates that overall importance/feasibility scores were similar.  Therefore the project should be deliverable.
 
 ### Colour Schema
 
-    The color scheme for this task management app has been carefully selected to create a modern, intuitive, and calming user experience. The primary color, a soft blue, fosters focus and trust, making it ideal for headers and primary actions. Vibrant teal is used as an accent to draw attention to key elements without overwhelming the interface. Neutral tones like light grey and white maintain a clean and professional aesthetic, while dark grey text ensures excellent readability. Status colors such as green, amber, and red provide clear visual cues for task statuses, ensuring users can quickly identify completed, pending, and overdue tasks. This thoughtful palette not only enhances usability but also promotes an environment that encourages productivity and reduces cognitive load. Interactive elements feature subtle hover effects and focused states to improve user engagement and provide seamless feedback during interactions.
+The color scheme for this task management app has been carefully selected to create a modern, intuitive, and calming user experience. The primary color, a soft blue, fosters focus and trust, making it ideal for headers and primary actions. Vibrant teal is used as an accent to draw attention to key elements without overwhelming the interface. Neutral tones like light grey and white maintain a clean and professional aesthetic, while dark grey text ensures excellent readability. Status colors such as green, amber, and red provide clear visual cues for task statuses, ensuring users can quickly identify completed, pending, and overdue tasks. This thoughtful palette not only enhances usability but also promotes an environment that encourages productivity and reduces cognitive load. Interactive elements feature subtle hover effects and focused states to improve user engagement and provide seamless feedback during interactions.
 
 | **Category**                      | **Color**                      | **Reasoning**                                                                   |
 |-----------------------------------|--------------------------------|---------------------------------------------------------------------------------|
@@ -121,7 +121,7 @@ This process has been documented separately in [AGILE.md](AGILE.md)
 
 ### Database Design
 
-    Entity Relationship Diagrams help to visualise database architecture before creating models in Django. Understanding the relationships between different tables can save time recoding later in the project.
+Entity Relationship Diagrams help to visualise database architecture before creating models in Django. Understanding the relationships between different tables can save time recoding later in the project.
 
 | **Model**   | **Usage**                                                                                                      |
 |-------------|----------------------------------------------------------------------------------------------------------------|
@@ -138,8 +138,11 @@ This process has been documented separately in [AGILE.md](AGILE.md)
 | **Profile** | id                    | AutoField                 | PK            | Auto-incrementing primary key.                                                  |
 |             | user                  | OneToOneField(User)       | FK            | Links the profile to a single user.                                             |
 |             | profile_picture       | ImageField                |               | Optional field to upload and store profile pictures.                            |
+|             | name                  | CharField(max_length=255) |               | Optional field for storing the user’s name.                                    |
 |             | bio                   | TextField                 |               | Optional short biography or user description.                                   |
 |             | location              | CharField(max_length=255) |               | Optional field for storing the user’s location.                                 |
+|             | created_at            | DateTimeField             |               | Auto-generated timestamp for profile creation.                                 |
+|             | updated_at            | DateTimeField             |               | Auto-generated timestamp for the last profile update.                          |
 | **Category**| id                    | AutoField                 | PK            | Auto-incrementing primary key.                                                  |
 |             | name                  | CharField(max_length=255) |               | Name of the category (e.g., Work, Personal).                                    |
 |             | user                  | ForeignKey(User)          | FK            | Links category to the user who created it.                                      |

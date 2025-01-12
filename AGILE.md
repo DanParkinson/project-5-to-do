@@ -2,7 +2,7 @@
 
 ## Sprint 1 
 
-    The first sprint will be about setting up the repo correctly including:
+The first sprint will be about setting up the repo correctly including:
 
     [X] Setup repo.
     [x] Perform design thinking exercise for features to include in project.
@@ -15,7 +15,7 @@
 
 ## Sprint 2 
 
-    Next we need to create the django project, install cloudinary and pillow, the append the allowed hosts so the server runs. Once this is complete the profiles model can be built. 
+Next we need to create the django project, install cloudinary and pillow, then append the allowed hosts so the server runs. Once this is complete the profiles model can be built. 
 
     [x] Install Django.
     [x] Create Django project.
