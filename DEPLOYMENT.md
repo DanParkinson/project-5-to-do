@@ -65,6 +65,30 @@ Reopen the server and you will see:
     
 ![Live Django Project](images/deployment/deployment_1.png)
 
+## Installing Django Rest Framework
+
+Use command 
+- *pip install djangorestframework
+
+Then add to installed apps in settings.py
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'cloudinary_storage',
+    'django.contrib.staticfiles',
+    'cloudinary',
+    'rest_framework',    <------
+
+    'profiles',
+]
+
+
+
+
 
 
 

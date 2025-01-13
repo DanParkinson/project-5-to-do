@@ -15,15 +15,16 @@ The first sprint will be about setting up the repo correctly including:
 
 ## Sprint 2 
 
-Next we need to create the django project, install cloudinary and pillow, then append the allowed hosts so the server runs. Once this is complete the profiles model can be built. 
+Next we need to create the django project, install cloudinary and pillow, then append the allowed hosts so the server runs. Once this is complete the profiles model can be built and Django rest can be installed to handle user data. 
 
     [x] Install Django.
     [x] Create Django project.
     [x] Install Cloudinary.
     [x] Install Pillow.
     [x] Runserver and append allowed hosts.
-    [ ] Create Profiles app.
-    [ ] Create Profiles model. 
+    [x] Create Profiles app.
+    [x] Create Profiles model.
+    [ ] Add Django Rest Framework.
     [ ] Create Task Resource. 
     [ ] Create Catergories Resource. 
     [ ] Prepare to Deploy in Sprint 3.
