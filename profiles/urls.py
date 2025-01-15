@@ -1,8 +1,7 @@
-from django.urls import path, include
-from profiles import views
+from django.urls import path
+from tasks import views
 
 urlpatterns = [
-    path('profiles/', views.ProfileList.as_view()),
-    path('api-auth/', include('rest_framework.urls')),
-    path('profiles/<int:pk>/', views.ProfileDetail.as_view()),
+    path('tasks/', views.TaskList.as_view(), name='task-list'),  # List all tasks or create a new task
+    path('tasks/<int:pk>/', views.TaskDetail.as_view(), name='task-detail'),  # Retrieve, update, or delete a specific task
 ]
