@@ -15,6 +15,7 @@ class Task(models.Model):
         ('High', 'High'),
     ]
 
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='tasks')
     title = models.CharField(max_length=255)
     description = models.TextField(blank=True, null=True)
     status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='Pending')
@@ -25,9 +26,9 @@ class Task(models.Model):
     user= models.ForeignKey(User, on_delete=models.CASCADE, related_name = 'tasks')
 
     class Meta:
-        ordering = ['-created_at']
+        ordering = ['due_date', '-created_at']
     
     def __str__(self):
-        return self.title
+        return f"{self.title} ({self.user.username})"
 
     
