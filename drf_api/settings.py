@@ -37,6 +37,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['8000-danparkinso-project5tod-3no5y86gzvz.ws.codeinstitute-ide.net']
 
+# CSRF Trusted Origins
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-danparkinso-project5tod-3no5y86gzvz.ws.codeinstitute-ide.net',
+]
+
 
 # Application definition
 
